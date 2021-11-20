@@ -16,6 +16,8 @@
 		C48F673E2748094F001F2181 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F673D2748094F001F2181 /* DetailsViewController.swift */; };
 		C48F67402748096A001F2181 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F673F2748096A001F2181 /* ListViewController.swift */; };
 		C48F67422748098E001F2181 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F67412748098E001F2181 /* SearchViewController.swift */; };
+		C48F67482748E504001F2181 /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F67472748E504001F2181 /* Drug.swift */; };
+		C48F674A2748E6A9001F2181 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F67492748E6A9001F2181 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C48F673D2748094F001F2181 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		C48F673F2748096A001F2181 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C48F67412748098E001F2181 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C48F67472748E504001F2181 /* Drug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Drug.swift; path = SimpleProject/Controllers/Drug.swift; sourceTree = SOURCE_ROOT; };
+		C48F67492748E6A9001F2181 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = SimpleProject/Controllers/DataManager.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		165D81BC2742C25300926DA7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C48F67472748E504001F2181 /* Drug.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 		165D81BF2742C27400926DA7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C48F67492748E6A9001F2181 /* DataManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -180,10 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48F67422748098E001F2181 /* SearchViewController.swift in Sources */,
+				C48F674A2748E6A9001F2181 /* DataManager.swift in Sources */,
 				165D81AD2742C21E00926DA7 /* ViewController.swift in Sources */,
 				165D81A92742C21E00926DA7 /* AppDelegate.swift in Sources */,
 				165D81AB2742C21E00926DA7 /* SceneDelegate.swift in Sources */,
 				C48F67402748096A001F2181 /* ListViewController.swift in Sources */,
+				C48F67482748E504001F2181 /* Drug.swift in Sources */,
 				C48F673E2748094F001F2181 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
