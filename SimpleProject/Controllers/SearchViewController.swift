@@ -20,14 +20,8 @@ class SearchViewController: UIViewController {
     }
     
     @IBAction func searchButtonPressed() {
-        let text = searchTextField.text ?? ""
-        if text == "" {
-            filteredDrugsList = drugsList
-        } else {
-            filteredDrugsList.removeAll()
-            filteredDrugsList = drugsList.filter{ $0.name.lowercased().contains(text.lowercased())}
-        }
-        performSegue(withIdentifier: "showSearchresult", sender: UIButton.self)
+        
+        performSegue(withIdentifier: "searchResult", sender: UIButton.self)
     }
     
     // MARK: - Navigation
@@ -36,7 +30,16 @@ class SearchViewController: UIViewController {
         guard let navigationVC = segue.destination as? UINavigationController else {return}
         guard let destController = navigationVC.topViewController as? ListViewController else {return}
         
+        let text = searchTextField.text ?? ""
+        if text == "" {
+            filteredDrugsList = drugsList
+        } else {
+            filteredDrugsList.removeAll()
+            filteredDrugsList = drugsList.filter{ $0.name.lowercased().contains(text.lowercased())}
+        }
+        
         destController.drugsList = filteredDrugsList
+        
         
     }
 }
