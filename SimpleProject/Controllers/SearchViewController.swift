@@ -11,21 +11,32 @@ class SearchViewController: UIViewController {
     
     var drugsList: [Drug]!
     
+    private var filteredDrugsList: [Drug] = []
+    
+    @IBOutlet weak var searchTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(drugsList)
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
+    @IBAction func searchButtonPressed() {
+        let text = searchTextField.text ?? ""
+        if text == "" {
+            filteredDrugsList = drugsList
+        } else {
+            filteredDrugsList.removeAll()
+            filteredDrugsList = drugsList.filter{ $0.name.lowercased().contains(text.lowercased())}
+        }
+        performSegue(withIdentifier: "showSearchresult", sender: UIButton.self)
+    }
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard let navigationVC = segue.destination as? UINavigationController else {return}
+        guard let destController = navigationVC.topViewController as? ListViewController else {return}
+        
+        destController.drugsList = filteredDrugsList
+        
     }
-    */
-
 }

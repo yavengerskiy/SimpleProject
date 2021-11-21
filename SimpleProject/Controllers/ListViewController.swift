@@ -10,9 +10,9 @@ import UIKit
 class ListViewController: UITableViewController {
     
     var drugsList: [Drug]!
-    var filteredDrugsList: [Drug] = []
     
-    var search = UISearchController()
+    private var filteredDrugsList: [Drug] = []
+    private var search = UISearchController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,6 @@ class ListViewController: UITableViewController {
         search = UISearchController(searchResultsController: nil)
         search.searchResultsUpdater = self
         self.navigationItem.searchController = search
-    
     }
     
     // MARK: - Table view data source
@@ -69,11 +68,11 @@ class ListViewController: UITableViewController {
 
 extension ListViewController: UISearchResultsUpdating {
     
-    func searchBarIsEmpty() -> Bool {
+    private func searchBarIsEmpty() -> Bool {
         search.searchBar.text?.isEmpty ?? true
     }
     
-    func isSearch() -> Bool {
+    private func isSearch() -> Bool {
         search.isActive && !searchBarIsEmpty()
     }
     
