@@ -13,14 +13,20 @@ class DataManager {
         "Аспирин® (Aspirin®)",
         "Бадяга (порошок) (Spongilla)",
         "Женьшеня настойка (Ginseng tinctura)",
-        "Магне B6® (Magne B6®) ",
+        "Магне B6® (Magne B6®)",
         "Називин® (Nasivin)",
         "Осетрон® (Osetron)",
         "Слабилен® (Slabilen)",
         "Эфлоран (Efloran)",
-        "Юникпеф® (Unikpef®) ",
+        "Юникпеф® (Unikpef®)",
         "Валокордин® (Valocordin)"
     ]
+    
+    let photos = ["aspirin", "badyaga", "женьшень",
+                 "magne b6", "nasivin", "osetron",
+                 "slabilen", "efloran-rastvor", "nophoto2",
+                 "valokordin"]
+    
     let manufacturers = [
         "BAYER BITTERFELD, GmbH (Германия)",
         "ТУЛЬСКАЯ ФАРМАЦЕВТИЧЕСКАЯ ФАБРИКА, ООО (Россия)",

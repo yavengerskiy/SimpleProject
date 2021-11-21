@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163CFBD4274955A600C51A60 /* DrugsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CFBD3274955A600C51A60 /* DrugsTabBarController.swift */; };
 		165D81A92742C21E00926DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D81A82742C21E00926DA7 /* AppDelegate.swift */; };
 		165D81AB2742C21E00926DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D81AA2742C21E00926DA7 /* SceneDelegate.swift */; };
 		165D81AD2742C21E00926DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D81AC2742C21E00926DA7 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163CFBD3274955A600C51A60 /* DrugsTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsTabBarController.swift; sourceTree = "<group>"; };
 		165D81A52742C21E00926DA7 /* SimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165D81A82742C21E00926DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165D81AA2742C21E00926DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				165D81AA2742C21E00926DA7 /* SceneDelegate.swift */,
 				165D81A82742C21E00926DA7 /* AppDelegate.swift */,
 				165D81AC2742C21E00926DA7 /* ViewController.swift */,
+				163CFBD3274955A600C51A60 /* DrugsTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				165D81AD2742C21E00926DA7 /* ViewController.swift in Sources */,
 				165D81A92742C21E00926DA7 /* AppDelegate.swift in Sources */,
 				165D81AB2742C21E00926DA7 /* SceneDelegate.swift in Sources */,
+				163CFBD4274955A600C51A60 /* DrugsTabBarController.swift in Sources */,
 				C48F67402748096A001F2181 /* ListViewController.swift in Sources */,
 				C48F67482748E504001F2181 /* Drug.swift in Sources */,
 				C48F673E2748094F001F2181 /* DetailsViewController.swift in Sources */,
