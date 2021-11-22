@@ -10,7 +10,6 @@
 		163CFBD4274955A600C51A60 /* DrugsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CFBD3274955A600C51A60 /* DrugsTabBarController.swift */; };
 		165D81A92742C21E00926DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D81A82742C21E00926DA7 /* AppDelegate.swift */; };
 		165D81AB2742C21E00926DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D81AA2742C21E00926DA7 /* SceneDelegate.swift */; };
-		165D81AD2742C21E00926DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D81AC2742C21E00926DA7 /* ViewController.swift */; };
 		165D81B02742C21E00926DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165D81AE2742C21E00926DA7 /* Main.storyboard */; };
 		165D81B22742C22100926DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165D81B12742C22100926DA7 /* Assets.xcassets */; };
 		165D81B52742C22100926DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165D81B32742C22100926DA7 /* LaunchScreen.storyboard */; };
@@ -26,7 +25,6 @@
 		165D81A52742C21E00926DA7 /* SimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165D81A82742C21E00926DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165D81AA2742C21E00926DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		165D81AC2742C21E00926DA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		165D81AF2742C21E00926DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		165D81B12742C22100926DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165D81B42742C22100926DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				C48F673D2748094F001F2181 /* DetailsViewController.swift */,
 				165D81AA2742C21E00926DA7 /* SceneDelegate.swift */,
 				165D81A82742C21E00926DA7 /* AppDelegate.swift */,
-				165D81AC2742C21E00926DA7 /* ViewController.swift */,
 				163CFBD3274955A600C51A60 /* DrugsTabBarController.swift */,
 			);
 			path = Controllers;
@@ -190,7 +187,6 @@
 			files = (
 				C48F67422748098E001F2181 /* SearchViewController.swift in Sources */,
 				C48F674A2748E6A9001F2181 /* DataManager.swift in Sources */,
-				165D81AD2742C21E00926DA7 /* ViewController.swift in Sources */,
 				165D81A92742C21E00926DA7 /* AppDelegate.swift in Sources */,
 				165D81AB2742C21E00926DA7 /* SceneDelegate.swift in Sources */,
 				163CFBD4274955A600C51A60 /* DrugsTabBarController.swift in Sources */,

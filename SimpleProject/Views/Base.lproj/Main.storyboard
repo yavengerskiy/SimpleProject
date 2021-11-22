@@ -13,7 +13,7 @@
             <objects>
                 <tableViewController id="xSW-xS-qqU" customClass="ListViewController" customModule="SimpleProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Y4P-ku-bdu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -122,11 +122,11 @@
             <objects>
                 <viewController id="HuW-m9-vo1" customClass="DetailsViewController" customModule="SimpleProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OQI-ge-1OE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1346"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwv-gK-Sqk">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1251"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1222"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jnx-8p-zyX">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1222"/>
@@ -253,7 +253,7 @@
             <objects>
                 <viewController title="TeamViewController" id="Jrr-C8-9k1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dhe-Tr-1MH">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="team" translatesAutoresizingMaskIntoConstraints="NO" id="zNl-AQ-Ooi">
@@ -333,7 +333,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="pb9-z2-ZZW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ubD-ch-Yea">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -347,7 +347,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Hnl-xN-Iwa"/>
+        <segue reference="O2J-kb-3Eb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="736" height="1104"/>
